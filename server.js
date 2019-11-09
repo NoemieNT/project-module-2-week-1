@@ -34,9 +34,9 @@ server.get("/booking", (request, response) => {
 
 //signIN
 server.get("/signIn", (request, response) => {
-  response.render("booking", {
+  response.render("signIn", {
     title: "Sign in and get access to our offers",
-    css: ["booking"]
+    css: ["signIn"]
   });
 });
 server.listen(port);
